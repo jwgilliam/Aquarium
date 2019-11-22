@@ -21,38 +21,38 @@ const initializeDetailButtonEvents = () => {
           theDialog.showModal()
       }
   )
-  document.querySelector("#button--steve").addEventListener(
+  document.querySelector("#button--wamp").addEventListener(
     "click",
     theClickEvent => {
-        const theDialog = document.querySelector("#details--steve")
+        const theDialog = document.querySelector("#details--wamp")
         theDialog.showModal()
     }
 )
-document.querySelector("#button--patrick").addEventListener(
+document.querySelector("#button--horseface).addEventListener(
   "click",
   theClickEvent => {
-      const theDialog = document.querySelector("#details--patrick")
+      const theDialog = document.querySelector("#details--horseface")
       theDialog.showModal()
   }
 )
 document.querySelector("#button--glen").addEventListener(
   "click",
   theClickEvent => {
-      const theDialog = document.querySelector("#details--glen")
+      const theDialog = document.querySelector("#details--chuck")
       theDialog.showModal()
   }
 )
 document.querySelector("#button--andy").addEventListener(
   "click",
   theClickEvent => {
-      const theDialog = document.querySelector("#details--andy")
+      const theDialog = document.querySelector("#details--chuck")
       theDialog.showModal()
   }
 )
-document.querySelector("#button--capn").addEventListener(
+document.querySelector("#button--garth").addEventListener(
   "click",
   theClickEvent => {
-      const theDialog = document.querySelector("#details--capn")
+      const theDialog = document.querySelector("#details--garth")
       theDialog.showModal()
   }
 )

@@ -1,7 +1,15 @@
 import initializeDetailButtonEvents from "./dialog.js"
-import addMouseOver from "./highlight.js"
+import addMouseOverEventListeners from "./highlight.js"
 import tipHighlight from "./asdf.js"
+import { useFish } from "../fishdataprovider.js"
+
 
 initializeDetailButtonEvents()
-addMouseOver()
+addMouseOverEventListeners()
 tipHightlight()
+const allOfTheFish = useFish()
+
+console.log("all of the fish: ", allOfTheFish)
+for (const fish of allOfTheFish) {
+  console.log("individual fish object: ", fish)
+}

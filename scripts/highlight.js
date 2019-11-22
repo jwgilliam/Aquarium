@@ -1,4 +1,4 @@
-const addMouseOver = () => {
+const addMouseOverEventListeners = () => {
   const fishCards = document.querySelectorAll(".fishies__card")
 
   for (const card of fishCards) {
@@ -9,11 +9,10 @@ const addMouseOver = () => {
           }
       )
 
-
       card.addEventListener("mouseout", theMouseOutEvent => {
           card.classList.remove("highlightFish")
       })
   }
 }
 
-export default addMouseOver
+export default addMouseOverEventListeners
